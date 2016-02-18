@@ -34,10 +34,10 @@ a:active {color: #A12B2D;}
 
 
 #nav p {margin: 0px; padding: 0px;}
-#nav li a {font-size: 16px;
-           display:block; width: 90px; height: 70px;text-align: center; border-left:#050404 dotted 2px }
+#nav li a {font-size: 15px;
+           display:block; width: 80px; height: 70px;text-align: center; border-left:#050404  }
 #nav li a p {padding-top:25px;}
-.last {border-right:#010101 dotted 2px}
+.last {border-right:#010101 }
 
 
 
@@ -45,6 +45,11 @@ a:active {color: #A12B2D;}
 #main {background-image:url(image/gold.jpg); no-repeat:left top; width:800px; height:500px; margin-left:auto; margin-right:auto; margin-top:50px;}
 #container {margin-left: 45px; margin-top:57px; width:709px; height:389px; position:absolute; overflow:hidden;}
 .page {width:709px; height:389px;}
-#Biographytext {height:300px; margin-left:40px;margin-top:60px;margin-bottom:0px;overflow:hidden;position:absolute;width: 375px;float:left;}
-#Biography img {float: right}
+li{ 
+font-size:12px;
+margin:20px;
+font-family: 'Ubuntu', sans-serif;
+color: black;
+}
+
 

@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document */
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-size: 100%;
+  font-family: Arial;
+  color: #7f8c97;
+  background-color: #e9f0f5;
+}
+
+a {
+  color: #acb7c0;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+/* -------------------------------- 
+
+Main components 
+
+-------------------------------- */
+header {
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  background: #303e49;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+  color: white;
+  font-size: 26px;
+  font-size: 1.125rem;
+}
+@media only screen and (min-width: 1170px) {
+  header {
+    height: 300px;
+    line-height: 300px;
+  }
+  header {
+    font-size: 24px;
+    font-size: 1.5rem;
+  }
+}
+.container {
+    margin: 20px auto;
+    width: 500px;
+    overflow: hidden;
+}
+.timeslot {
+    width: 235px;
+    float: left;
+    margin: 0 0 30px;
+    padding: 10px 100px 0 0;
+    border-top: 3px solid #ddd;
+    position: relative;
+}
+.timeslot span {
+    position: absolute;
+    right: 0;
+    color: #999;
+}
+.even {
+    float: right;
+    padding: 10px 0 0 100px;
+}
+.even span {
+    left: 0;
+}
+</style>

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	font:100%/1.4 Verdana, Arial, Helvetic, sans-serif;
+	color:#480677;
+	background-image: url(image/gd.jpg);
+	background-position:left bottom;
+
+	margin:0;
+	padding:0;
+	color:#000;
+	
+}
+/*These css rules are for the header*/
+
+#nav {color: #FFF; list-style-type: none; margin:0px; padding:0px}
+#nav li {display: block; float: left;}
+
+a:link {color: #480677;text-decoration: none}
+a:visited {text-decoration: none;color: #480677;}
+a:hover {text-decoration: underline;color: #F6070B;}
+a:active {color: #480677;}
+
+h1 {color:#480677;  }
+    .container {
+	 width:960px;
+	 background-color:#060505;
+	 margin:0 auto;
+	 border-style:dotted;
+	 border-width:think;
+	 
+	 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+      body {
+        font-family: 'Tangerine', serif;
+        font-size: 48px;
+ }
+ /*These styles are for the main pages*/
+ 
+
